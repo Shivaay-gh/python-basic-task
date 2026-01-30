@@ -4,3 +4,8 @@ print(min(10,19,8,7,65))
 print(abs(-2020))
 
 print(pow(2,3))
+
+
+
+
+
