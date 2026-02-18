@@ -2,6 +2,28 @@
 
 This repository contains beginner-level Python programs.
 
+## Assignment4_task_1: Students Marks Lookup
+- This Python program allows you to look up a student's marks from a predefined dictionary.
+
+Key features:
+- Case-insensitive search (e.g., "alice", "ALICE", "Alice" all work)
+- Handles missing records gracefully
+- Displays marks with proper formatting
+
+## Assignment4_task_2: LIST SLICING & REVERSING
+- This Python program demonstrates basic list operations:
+- Extracting a subset of elements from a list
+- Reversing the extracted elements
+
+--- How It Works
+
+A list of numbers from 1 to 10 is created:
+
+- numbers = list(range(1, 11))
+- first_five = numbers[:5]
+- reversed_first_five = first_five[::-1]
+
+
 ## Assignment3_task_1: Factorial Calculation
 - Prompts the user to enter an integer.
 - Uses a 'for' loop to compute the factorial.
