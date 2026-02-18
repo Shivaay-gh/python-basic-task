@@ -2,6 +2,30 @@
 
 This repository contains beginner-level Python programs.
 
+## tkinter: Calculator using tkinter
+This Python program implements a simple graphical calculator using Tkinter. It supports:
+
+- Addition (+), subtraction (-), multiplication (*), and division (/)
+- Decimal numbers
+- Clear button to reset the input
+- Error handling for invalid inputs and division by zero
+
+---  How It Works
+
+- The program uses a `Calculator` class to manage the GUI and calculator logic.
+- An **Entry** widget is used for input and output.
+- **Buttons** for numbers (0–9), operators, decimal point, equal, and clear are created dynamically.
+- Clicking an operator stores the first number and the operator.
+- Clicking `=` computes the result and displays it.
+- Invalid operations show "ERROR" in the entry box.
+
+---  Specification
+
+- GUI interface built with **Tkinter**
+- Case-insensitive handling of numbers and decimals
+- Prevents crashes for invalid input or division by zero
+
+
 ## Assignment5_task_2: Write and Append data in a file
 This Python program demonstrates basic file operations:
 - Write user input to a file.
