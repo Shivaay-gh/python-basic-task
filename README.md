@@ -21,7 +21,7 @@ Example logic:
 - else:
       print("Odd")
 
-## Assignment2_task_1: Sum of numbers from 1 to 50
+## Assignment2_task_2: Sum of numbers from 1 to 50
 - Uses a 'for' loop to iterate through numbers 1 to 50.
 - Adds each number to a running total.
 - Prints the final sum.
