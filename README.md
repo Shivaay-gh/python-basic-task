@@ -2,6 +2,74 @@
 
 This repository contains beginner-level Python programs.
 
+## Assignment3_task_1: Factorial Calculation
+- Prompts the user to enter an integer.
+- Uses a 'for' loop to compute the factorial.
+- Displays the result.
+- Handles invalid input using try-except.
+
+--- How It Works
+
+- Factorial of a number n (written as n!) is:
+
+- n! = n × (n - 1) × (n - 2) × ... × 1
+
+- Example:
+- 5! = 5 × 4 × 3 × 2 × 1 = 120
+
+Code Example
+
+try:
+    n = int(input("Enter a number: "))
+    
+    factorial = 1
+    for i in range(1, n + 1):
+        factorial *= i
+
+    print(f"The factorial of {n} is: {factorial}")
+
+except ValueError:
+    print("Please enter a valid integer.")
+
+## Assignment3_task_2: Using The MATH Module for Calculation
+- This Python program performs three mathematical operations on a user-entered number:
+
+- Square root
+- Natural logarithm (base e)
+- Sine (in radians)
+
+- The program ensures the number entered is greater than 0 and handles invalid input using exception handling.
+
+--- How IT Works
+
+The program uses Python's built-in "math" module:
+
+- 'math.sqrt(x)' → Returns the square root of x
+- 'math.log(x)' → Returns the natural logarithm of x
+- 'math.sin(x)' → Returns the sine of x (x must be in radians)
+
+Example Code
+
+import math
+
+try:
+    num = float(input("Enter a number greater than 0: "))
+
+    if num <= 0:
+        raise ValueError("Number must be greater than 0.")
+
+    square_root = math.sqrt(num)
+    natural_log = math.log(num)
+    sine_value = math.sin(num)
+
+    print("\nResults:")
+    print("Square root:", square_root)
+    print("Natural logarithm (base e):", natural_log)
+    print("Sine (in radians):", sine_value)
+
+except ValueError as ve:
+    print("Error:", ve)
+
 ## Assignment2_task_1: Odd Even Checker
 - Prompts the user to enter an integer.
 - Checks if the number is divisible by 2. 
