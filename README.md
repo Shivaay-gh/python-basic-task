@@ -3,26 +3,21 @@
 This repository contains beginner-level Python programs.
 
 ## tkinter: Calculator using tkinter
-This Python program implements a simple graphical calculator using Tkinter. It supports:
-
+This program contains simple tkinter Calculator. It supports -
 - Addition (+), subtraction (-), multiplication (*), and division (/)
-- Decimal numbers
-- Clear button to reset the input
-- Error handling for invalid inputs and division by zero
 
 ---  How It Works
 
-- The program uses a `Calculator` class to manage the GUI and calculator logic.
-- An **Entry** widget is used for input and output.
-- **Buttons** for numbers (0–9), operators, decimal point, equal, and clear are created dynamically.
+- The program uses a 'Calculator' class to manage the calculator logic.
+- Button" for numbers (0–9), operators, equal, and clear are created.
 - Clicking an operator stores the first number and the operator.
-- Clicking `=` computes the result and displays it.
+- Clicking "=" computes the result and displays it.
 - Invalid operations show "ERROR" in the entry box.
 
 ---  Specification
 
-- GUI interface built with **Tkinter**
-- Case-insensitive handling of numbers and decimals
+- It's interface built with "Tkinter"
+- Case-insensitive handling of numbers.
 - Prevents crashes for invalid input or division by zero
 
 
@@ -34,12 +29,11 @@ This Python program demonstrates basic file operations:
 
 --- How It Works
 
-1. **Write mode (`w`)**: Saves the user's input to `output.txt`.  
-2. **Append mode (`a`)**: Adds more content to the same file without overwriting.  
-3. **Read mode (`r`)**: Reads the content line by line and displays it.
+1. Write mode ("w"): Saves the user's input to ''output.txt'.  
+2. Append mode ("a"): Adds more content to the same file without overwriting.  
+3. Read mode ("r"): Reads the content line by line and displays it.
 
 Example code:
-
 
 with open("output.txt", "w") as file:
 -    file.write(user_input + "\n")
@@ -54,7 +48,7 @@ with open("output.txt", "r") as file:
 
 
 ## Assignment5_task_1: Read a File and Handle Errors
-This Python program reads the content of a file named `sample.txt` and prints each line with its line number.
+This Python program reads the content of a file named "sample.txt" and prints each line with its line number.
 
 Features:
 - Reads a file line by line.
@@ -63,9 +57,9 @@ Features:
 
 --- How It Works
 
-1. The program attempts to open `sample.txt` in read mode.
+1. The program attempts to open "sample.txt" in read mode.
 2. Each line is read and printed along with its line number.
-3. If the file is missing, a `FileNotFoundError` is caught and an error message is displayed.
+3. If the file is missing, a "FileNotFoundError" is caught and an error message is displayed.
 
 Example code:
 
