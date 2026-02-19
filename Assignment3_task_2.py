@@ -3,7 +3,7 @@ import math
 try:
     num = float(input("Enter a number: "))
 
-    if num<= 0:
+    if num <= 0:
         raise ValueError("Number must be greater than 0.")
 
     square_root = math.sqrt(num)
