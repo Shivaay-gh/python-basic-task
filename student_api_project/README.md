@@ -2,19 +2,6 @@
 
 This repository contains beginner-level Python programs.
 
-
-## Assignment9 - Student REST API using Django
-
---- Features
-- creates student records
-- view all students
-- view a single student
-- Update student records
-- Details students details
-- Django admin panel support
-- JSON-based REST API
-
-
 ## Assignment8 - Basic Flask Registration Form
 
 --- TOOLS USED
