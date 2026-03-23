@@ -2,6 +2,29 @@
 
 This repository contains beginner-level Python programs.
 
+## Assignment7 - PostgresSQL with Python(psycopg2)
+To create a Python program that connects to a PostgresSQL database, creates a table, insert data, and retrieves data.
+
+--- TOOLS USED
+- Python
+- PostgresSQL
+- psycopg2
+
+--- Description
+- This Python program perform the following:
+- connects to PostgresSQL
+- creates a table
+- insert a record
+- fetches and displays data
+
+
+--- Table Structure
+- students(id, name, age)
+
+--- Output
+- (1, 'Shivaay', 20)
+
+
 ## tkinter: Calculator using tkinter
 This program contains simple tkinter Calculator. It supports -
 - Addition (+), subtraction (-), multiplication (*), and division (/)
