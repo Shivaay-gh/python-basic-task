@@ -2,6 +2,25 @@
 
 This repository contains beginner-level Python programs.
 
+## Assignment8 - Basic Flask Registration Form
+
+--- TOOLS USED
+- Python
+- Flask
+- HTML
+
+--- DESCRIPTION
+- This project is a simple Flask web application that displays a registration form.
+- The user enters name and email, and after submitting the form, the entered data is displayed as a success message.
+
+--- HOW TO RUN
+- Run Python file
+- python assignment8.py
+- Open browser and go to: (https://127.0.0.1:5000/register)
+
+-- Output
+- The program shows a registration form. After submitting the form, it displays a success message with the entered name and email.
+
 ## Assignment7 - PostgresSQL with Python(psycopg2)
 To create a Python program that connects to a PostgresSQL database, creates a table, insert data, and retrieves data.
 
