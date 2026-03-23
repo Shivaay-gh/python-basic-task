@@ -91,18 +91,14 @@ A list of numbers from 1 to 10 is created:
 
 ## Assignment3_task_1: Factorial Calculation
 - Prompts the user to enter an integer.
-- Uses a 'for' loop to compute the factorial.
+- Uses recursion to compute the factorial.
 - Displays the result.
-- Handles invalid input using try-except.
 
---- How It Works
+--- CONS ->
+- Uses recursion
+- Handles invalid input
+- Prevents negative numbers
 
-- Factorial of a number n (written as n!) is:
-
-- n! = n × (n - 1) × (n - 2) × ... × 1
-
-- Example:
-- 5! = 5 × 4 × 3 × 2 × 1 = 120
 
 Code Example
 
@@ -130,7 +126,7 @@ Code Example
 - Natural logarithm (base e)
 - Sine (in radians)
 
-- The program ensures the number entered is greater than 0 and handles invalid input using exception handling.
+- The program ensures the number entered is greater than 0 and handles invalid input using ValueError.
 
 --- How IT Works
 
