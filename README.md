@@ -21,7 +21,7 @@ This program contains simple tkinter Calculator. It supports -
 - Prevents crashes for invalid input or division by zero
 
 
-## Assignment5_task_2: Write and Append data in a file
+## Assignment4_task_2: Write and Append data in a file
 This Python program demonstrates basic file operations:
 - Write user input to a file.
 - Append additional text to the same file.
@@ -47,7 +47,7 @@ with open("output.txt", "r") as file:
 
 
 
-## Assignment5_task_1: Read a File and Handle Errors
+## Assignment4_task_1: Read a File and Handle Errors
 This Python program reads the content of a file named "sample.txt" and prints each line with its line number.
 
 Features:
@@ -67,7 +67,7 @@ Example code:
 -    for line_number, line in enumerate(file, start=1):
 -       print(f"Line {line_number}: {line.strip()}")
 
-## Assignment4_task_1: Students Marks Lookup
+## Assignment5_task_1: Students Marks Lookup
 - This Python program allows you to look up a student's marks from a predefined dictionary.
 
 Key features:
@@ -75,7 +75,7 @@ Key features:
 - Handles missing records gracefully
 - Displays marks with proper formatting.
 
-## Assignment4_task_2: LIST SLICING & REVERSING
+## Assignment5_task_2: LIST SLICING & REVERSING
 - This Python program demonstrates basic list operations:
 - Extracting a subset of elements from a list
 - Reversing the extracted elements

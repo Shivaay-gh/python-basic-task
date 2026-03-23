@@ -1,19 +1,9 @@
-text = input("Enter text to write to the file: ")
+numbers = list(range(1,11))
 
-with open("Output.txt", "w") as file:
-    file.write(text + '\n')
+first_five = numbers[:5]
 
-print("Data successfully written to the output.txt")
+reversed_first_five = first_five[::-1]
 
-additional_text = input("Enter additional text to append: ")
-
-with open("Output.txt", "a") as file:
-    file.write(additional_text + '\n')
-
-print("Data successfully appended")
-
-print("\nFinal content of output.txt: ")
-
-with open("output.txt", 'r') as file:
-    content = file.read()
-    print(content)
+print("Original list:", numbers)
+print("Extracted list:", first_five)
+print("Reversed list:", reversed_first_five)

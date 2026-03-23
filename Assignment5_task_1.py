@@ -1,13 +1,17 @@
+students = {
+    "Alice": 85,
+    "Rahul": 92,
+    "Shubham": 95,
+    "Charlie": 90
+}
+
+students_lower = {key.lower(): value for key, value in students.items()}
+
+name = input("Enter the student's name: ").strip().lower()
+
 try:
-    file = open("sample.txt", 'r')
-    print("Reading File Content:")
+    marks = students_lower[name]
+    print(f"{name.capitalize()}'s marks are: {marks}")
 
-    line_number = 1
-    for line in file:
-        print(f"Line {line_number}: {line.strip()}")
-        line_number += 1
-
-    file.close()
-
-except FileNotFoundError:
-    print("Error: The file 'sample.txt' was not found.")
+except KeyError:
+    print("Student record not found.")
