@@ -106,17 +106,22 @@ A list of numbers from 1 to 10 is created:
 
 Code Example
 
-try:
-    n = int(input("Enter a number: "))
-    
-    factorial = 1
-    for i in range(1, n + 1):
-        factorial *= i
+- def factorial(n):
+-   "calculate the factorial using recursion"
+-   if n < 0:
+-      raise ValueError("Number must be non zero.")
+-  if n == 0 or n == 1:
+-      return 1
+-  return n * factorial(n - 1)
 
-    print(f"The factorial of {n} is: {factorial}")
 
-except ValueError:
-    print("Please enter a valid integer.")
+-try:
+-    n = int(input("Enter a number: "))
+-   result = factorial(n)
+-   print(f"The factorial of {n} is: {result}")
+-except ValueError as e:
+-   print("Error:", e)
+
 
 ## Assignment3_task_2: Using The MATH Module for Calculation
 - This Python program performs three mathematical operations on a user-entered number:
@@ -154,8 +159,8 @@ try:
     print("Natural logarithm (base e):", natural_log)
     print("Sine (in radians):", sine_value)
 
-except ValueError as ve:
-    print("Error:", ve)
+except ValueError as e:
+    print("Error:", e)
 
 ## Assignment2_task_1: Odd Even Checker
 - Prompts the user to enter an integer.
