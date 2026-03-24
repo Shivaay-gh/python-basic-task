@@ -2,6 +2,14 @@
 
 This repository contains beginner-level Python programs.
 
+## Assignment10 - Price Tracker
+- This is a simple Python Price Tracker project that works with only Amazon Url.
+- It takes product url and target price from user, fetches the webpage, extracts the product title and current price.
+
+
+--- Requirements
+- Install the required libraries before running the projects:
+- ( pip install requests beautifulsoup4 )
 
 ## Assignment9 - Student REST API using Django
 
